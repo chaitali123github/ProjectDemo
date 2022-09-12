@@ -14,9 +14,8 @@ public class Example1 {
 		list.add(30);
 		list.add(40);
 		
-		Iterator<Integer> itr = list.iterator();
-		while (itr.hasNext()) {
-			System.out.println(itr.next());
+		for(Integer i : list) {
+			System.out.println(list);
 		}
 
 	}
